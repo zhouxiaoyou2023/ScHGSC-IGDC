@@ -1,2 +1,3 @@
 # ScHGSC-IGDC
 ScHGSC-IGDC: identifying genes with differential correlations of high-grade serous ovarian cancer based on single-cell RNA sequencing analysis
+We developed an in silico framework named ScHGSC-IGDC to identify core genes in the development of HGSC. First, we extracted scRNA-seq data of HGSC from Gene Expression Omnibus (GSE189955). Then, weighted gene co-expression network analysis (WGCNA) and DiffCorr was employed to identify differentially correlated genes. Finally, dozens of new genes including NDUFS5, TMSB4X, SERPINE2 and ITPR2 were identified. Further biological and survival analysis yielded their valuable effects on the progression of HGSC.
